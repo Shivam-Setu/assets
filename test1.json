@@ -1,0 +1,53 @@
+[
+    {
+        "bbps": {
+            "id": "ABC123",
+            "name": "ABC",
+            "refID": "PP001"
+        },
+        "payment": {
+            "id": "ABC123",
+            "name": "ABCPayment",
+            "type": "ABCType",
+            "category": " ABC-Category ",
+            "amount": {
+                "value": 100,
+                "currency": "INR"
+            },
+            "status": "Success",
+            "date": "2020-01-01T00:00:00Z"
+        },
+        "settlement": {
+            "status": "SETTLEMENT_SUCCESSFUL",
+            "date": "2020-01-01T00:00:00Z",
+            "amount": {
+                "value": 100,
+                "currency": "INR"
+            }
+        }
+    },
+    {
+        "bbps": {
+            "id": "PQR123",
+            "name": "PQR",
+            "refID": "PP002"
+        },
+        "payment": {
+            "id": "PQR123",
+            "name": "PQRPayment",
+            "type": "PQRType",
+            "category": "PQR-Category",
+            "amount": {
+                "value": 500,
+                "currency": "INR"
+            },
+            "status": "Success",
+            "date": "2020-01-02T00:00:00Z"
+        },
+        "settlement": {
+            "status": "SETTLEMENT_FAILED",
+            "date": "2020-01-02T00:00:00Z",
+            "amount": {}
+        }
+    }
+]
